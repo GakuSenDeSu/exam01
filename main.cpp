@@ -10,6 +10,6 @@ int main()
     uLCD.text_width(4); //4X size text
     uLCD.text_height(4);
     uLCD.color(RED);
-    uLCD.rectangle(int 5, int 5, int 5, int 5, int 5);
+    uLCD.filled_rectangle(50, 50, 100, 100, 0xFFFFFF);
 
 }
