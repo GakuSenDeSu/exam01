@@ -4,7 +4,7 @@
 uLCD_4DGL uLCD(D1, D0, D2); // serial tx, serial rx, reset pin;
 PwmOut PWM1(D6);
 Serial pc( USBTX, USBRX );
-AnalogIn Ain(A0);
+AnalogIn Ain(D7);
 float ADCdata;
 
 int main()
